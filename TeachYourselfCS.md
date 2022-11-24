@@ -15,14 +15,14 @@ Study all nine subjects below, in roughly the presented order, using either the 
 
 | Subject                                           | Why study?                                                                                                                                | Best book                                               | Best videos                       |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------------------------------|
-| **[Programming](#programming)**                   | Don’t be the person who “never quite understood” something like recursion.                                                                | _Structure and Interpretation of Computer Programs_     | Brian Harvey’s Berkeley CS 61A    |
-| **[Computer Architecture](#architecture)**        | If you don’t have a solid mental model of how a computer actually works, all of your higher-level abstractions will be brittle.           | _Computer Organization and Design_                      | Berkeley CS 61C                   |
+| **[✅ Programming](#programming)**                   | Don’t be the person who “never quite understood” something like recursion.                                                                | _Structure and Interpretation of Computer Programs_    | Brian Harvey’s Berkeley CS 61A    |
+| **[✅Computer Architecture](#architecture)**        | If you don’t have a solid mental model of how a computer actually works, all of your higher-level abstractions will be brittle.           | _Computer Organization and Design_                      | Berkeley CS 61C                   |
 | **[Algorithms and Data Structures](#algorithms)** | If you don’t know how to use ubiquitous data structures like stacks, queues, trees, and graphs, you won’t be able to solve hard problems. | _The Algorithm Design Manual_                           | Steven Skiena’s lectures          |
 | **[Math for CS](#math)**                          | CS is basically a runaway branch of applied math, so learning math will give you a competitive advantage.                                 | _Mathematics for Computer Science_                      | Tom Leighton’s MIT 6.042J         |
-| **[Operating Systems](#operating-systems)**       | Most of the code you write is run by an operating system, so you should know how those interact.                                          | _Operating Systems: Three Easy Pieces_                  | Berkeley CS 162                   |
-| **[Computer Networking](#networking)**            | The Internet turned out to be a big deal: understand how it works to unlock its full potential.                                           | _Computer Networking: A Top-Down Approach_              | Stanford CS 144                   |
+| **[✅Operating Systems](#operating-systems)**       | Most of the code you write is run by an operating system, so you should know how those interact.                                          | _Operating Systems: Three Easy Pieces_                  | Berkeley CS 162                   |
+| **[✅Computer Networking](#networking)**            | The Internet turned out to be a big deal: understand how it works to unlock its full potential.                                           | _Computer Networking: A Top-Down Approach_              | Stanford CS 144                   |
 | **[Databases](#databases)**                       | Data is at the heart of most significant programs, but few understand how database systems actually work.                                 | _Readings in Database Systems_                          | Joe Hellerstein’s Berkeley CS 186 |
-| **[Languages and Compilers](#languages)**         | If you understand how languages and compilers actually work, you’ll write better code and learn new languages more easily.                | _Compilers: Principles, Techniques and Tools_           | Alex Aiken’s course on Lagunita   |
+| **[✅Languages and Compilers](#languages)**         | If you understand how languages and compilers actually work, you’ll write better code and learn new languages more easily.                | _Compilers: Principles, Techniques and Tools_           | Alex Aiken’s course on Lagunita   |
 | **[Distributed Systems](#distributed-systems)**   | These days, _most_ systems are distributed systems.                                                                                       | _Distributed Systems, 3rd Edition_ by Maarten van Steen | MIT 6.824                         |
 
 ## Why learn computer science?
@@ -45,7 +45,28 @@ Currently, the number of people entering the industry is rapidly increasing, whi
 
 ## Subject guides
 
+学习路线：
+
+先看✅的五项内容：Programming, Computer Architecture, Operating Systems, Computer Networking and Languages and Compilers.
+
+- Composing programs 
+- 深入理解计算机系统
+- 操作系统导论
+- 计算机网络-自顶向下方法第七版
+- 龙书 or craftinginterpreters.com
+
+
+
 ### Programming
+
+Learning path （1124-2022）:
+
+1. Composing programs 
+
+http://www.composingprograms.com/
+https://www-inst.eecs.berkeley.edu//~cs61a/sp12/book/
+
+2. SICP
 
 Most undergraduate CS programs start with an “introduction” to computer programming. The best versions of these courses cater not just to novices, but also to those who missed beneficial concepts and programming models while first learning to code.
 
